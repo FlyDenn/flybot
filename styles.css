@@ -7,6 +7,21 @@
 	transition: 0.5s;
 }
 
+.avatar-dark {
+	border-radius: 50%;
+	width: 60%;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+	padding: 0.6em;
+	margin-bottom: 1em;
+	transition: 0.5s;
+}
+
+.avatar-dark:hover {
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+	width: 65%;
+	transition: 0.5s;
+}
+
 .avatar:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 	width: 65%;
@@ -43,4 +58,16 @@
 .navbar-toggler:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	transition: 0.5s;
+}
+
+.dark {
+	background: #000;
+}
+
+.dark-text {
+	color: white;
+}
+
+.drop {
+	padding: 0.1em;
 }
