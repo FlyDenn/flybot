@@ -1,0 +1,27 @@
+.avatar {
+	border-radius: 50%;
+	width: 60%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	padding: 0.6em;
+	margin-bottom: 1em;
+}
+
+.logo {
+	border-radius: 25%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+	border-radius: 1em;
+	border-style: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.card:hover {
+	background-color: #E0FFFF;
+}
+
+.btn {
+	border-radius: 6em;
+	text-align: center;
+}
